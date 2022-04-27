@@ -13,6 +13,7 @@
     }
 
     .gitLink {
+        @include gradient;
         position: absolute;
         z-index: 999;
         color: $white;
@@ -20,16 +21,25 @@
         left: 20px;
         font-weight: 500;
         text-decoration: none;
-        // background-color: $primary;
-        @include gradient;
         border-radius: 15px;
         padding: 3px 10px;
         text-transform: capitalize;
         letter-spacing: 1px;
+        min-width: 101px;
+        text-align: center;
+
+        &:hover {
+            opacity: 0.9;
+        }
 
         @include media-breakpoint-down(sm) {
             font-size: 1.1rem;
+            min-width: 108px;
         }
+    }
+
+    .back-end {
+        bottom: 60px;
     }
 }
 
