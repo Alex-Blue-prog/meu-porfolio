@@ -11347,7 +11347,7 @@ textarea.form-control-lg {
 }
 
 .campanies {
-  padding: 0 0 5rem 0;
+  padding: 0rem 0 5rem 0;
 }
 .campanies__logo-box {
   max-width: 100%;
@@ -11366,7 +11366,7 @@ textarea.form-control-lg {
 
 .services {
   position: relative;
-  padding: 1rem 0;
+  padding: 5rem 0;
 }
 .services__content {
   padding: 1rem;
@@ -11446,7 +11446,7 @@ textarea.form-control-lg {
 }
 
 .portfolio {
-  padding: 4rem 0;
+  padding: 0rem 0;
 }
 .portfolio button {
   text-transform: capitalize;
